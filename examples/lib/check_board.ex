@@ -1,2 +1,0 @@
-# def Checkboard do
-# end
