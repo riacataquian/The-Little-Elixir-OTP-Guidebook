@@ -1,8 +1,8 @@
-defmodule MeterLengthConverterTest do
+defmodule Examples.MeterLengthConverterTest do
   use ExUnit.Case, async: true
 
-  doctest MeterLengthConverter
-  doctest MeterLengthConverter.Feet
-  doctest MeterLengthConverter.Inch
-  doctest MeterLengthConverter.Yard
+  doctest Examples.MeterLengthConverter
+  doctest Examples.MeterLengthConverter.Feet
+  doctest Examples.MeterLengthConverter.Inch
+  doctest Examples.MeterLengthConverter.Yard
 end
