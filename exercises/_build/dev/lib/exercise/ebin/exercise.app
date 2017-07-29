@@ -1,0 +1,10 @@
+{application,exercise,
+             [{applications,[kernel,stdlib,elixir,logger]},
+              {description,"exercise"},
+              {modules,['Elixir.Exercise','Elixir.MeterLengthConverter',
+                        'Elixir.MeterLengthConverter.Feet',
+                        'Elixir.MeterLengthConverter.Inch',
+                        'Elixir.MeterLengthConverter.Yard']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {extra_applications,[logger]}]}.
